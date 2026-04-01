@@ -1,0 +1,49 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body{
+    background-color: #212121;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vmin;
+}
+.height{
+    margin : 10px 0 ;
+    height : 40px;
+    width : 220px;
+}
+.weight{
+     margin : 10px 0 ;
+     height : 40px;
+    width : 220px;
+}
+.error{
+    margin-top : 20px;
+    color : white;
+}
+.final{
+    margin-top : 20px;
+    font-size : 20px;
+     color : white;
+}
+div h1{
+    color : white;
+    margin-bottom : 30px;
+}
+.submit{
+    height: 25px;
+    width : 100px;
+    background-color: black;
+color : white;
+border: none;
+margin-top: 25px;
+}
+.messages ul li{
+    color : white;
+    margin : 10px 0px;
+    font-size : 20px;
+}
