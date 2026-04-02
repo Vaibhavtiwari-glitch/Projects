@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #212121;
+}
+.box{
+    display : flex;
+    height: 90vmin;
+    align-items : center;
+    justify-content: center;
+}
+.frame{
+    height : 10vmin;
+    width : 40vmin;
+    background-color: black;
+    color : red;
+    border-radius: 10px;
+    display : flex;
+    align-items : center;
+    font-size : 32px;
+    justify-content: center;
+}
