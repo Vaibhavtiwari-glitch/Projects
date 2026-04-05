@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #212121;
+    color : white;
+}
+.box{
+    height : 70vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    color : rgb(237, 70, 98);
+    margin : 8vmin 0 ;
+}
+.inputNo{
+    height : 25px;
+    border-radius: 5px;
+    border : none;
+    width : 200px;
+    margin-bottom : 5vmin;
+}
+.guess{
+    height : 20px;
+    width : 70px;
+    margin-bottom : 5vmin;
+    border : none;
+    font-size : 18px;
+    
+}
+.msg{
+    font-size : 25px;
+    margin-bottom : 5vmin;
+    color : yellow;
+}
+.chances {
+       font-size : 25px;
+    margin-bottom : 5vmin;
+    color : rgb(237, 70, 98);
+}
+.reset{
+    display: flex;
+    justify-self: end;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vmin;
+    margin-top: 2vmin;
+    background-color: bisque;
+    color : black;
+    border : none;
+    height : 30px;
+    width : 80px;
+    font-size : 20px;
+}
+.prevguess{
+    font-size : 25px;
+    color : orange;
+}
