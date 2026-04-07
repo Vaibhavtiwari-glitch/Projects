@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #212121;
+}
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height : 100vmin;
+    justify-content: center;
+}
+.box{
+    height : 80vmin;
+    width : 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+.input{
+    height : 25px;
+    font-size: 20px;
+    margin: 25vmin, 0;
+    padding : 15px 0;
+}
+.tasklist{
+    background-color:rgb(15, 156, 93);
+    width : 550px;
+    color : white;
+   margin : 10vmin 0 ;
+    font-size : 30px;
+}
+.task{
+    border-top: 2px solid black ;
+    list-style: none;
+    display : flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.btn{
+    width : 35px;
+font-size : 20px;
+}
+.addbtn{
+    height : 35px;
+    width : 70px;
+    background-color: blue;
+    color : white;
+    border : none;
+}
